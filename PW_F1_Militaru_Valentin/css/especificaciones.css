@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Tungsten-Bold';   
+    src: url(../fonts/Tungsten\ Bold.ttf);
+}
+
+.title {
+    font-family: 'Tungsten-Bold';
+    font-size: 40px;
+    color: white; 
+    display: flex;
+    align-items: flex-end;
+    padding-left: 50px;
+    background-image: url('../imagenes/viperbg.jpg');
+    background-size: cover;      
+    background-position: end;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.specs {
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+.specs img {
+    height: 100px;
+}   

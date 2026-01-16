@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset='utf-8'>
+    <title>Registrar</title>
+    <link rel="icon" type="image/x-icon" href="../imagenes/valorant.png">
+    <link rel="stylesheet" href="../css/basic.css">
+</head>
+<body>
+    <header class="main-header">
+        <img src="../imagenes/riot-games.png" alt="logo riot" width="150" class="riot_logo">
+        <nav class="texto_N">
+            <a href="../index.html">Inicio</a>
+            <a href="agentes.html">Agentes</a>
+            <a href="especificaciones.html">Especificaciones</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="registrar.html">Registrar</a>
+            <a href="guia.html">Guia</a>    
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h1>Crear una cuenta</h1>
+            <img src="../imagenes/omen-valorant.webp" alt="Fondo omen-valorant" width="100%">
+        </section>
+        <section>
+            <form action="#" method="post">
+                <h2>¿Cuál es tu correo electrónico?</h2>
+                <input type="email" name="email" placeholder="Correo" required>
+                <br>
+                <label for="Anuncions">Quiero recibir noticias ocasionales y ofertas especiales de Riot Games</label>
+                <input type="checkbox" id="Anuncions" name="Anuncions" value="Viajar">
+                <br>
+                <h2>¿Cuándo naciste?</h2>
+                <p>Vamos a averiguar cuantos años tienes.</p>
+                <label for="date"></label>
+                <input type="date" id="date" name="date" min="18">
+                <br>
+                <h2>Elige un usuario</h2>
+                <p>Se utiliza para iniciar sesion en todos nuestros juegos.</p>
+                <input type="text" name="text" placeholder="Usuario" required>
+                <br>
+                <h2>Elige una contraseña</h2>
+                <p>Asegurate de que sea una buena</p>
+                <input type="password" name="password" placeholder="Contraseña" required>
+                <br>
+                <input type="password" name="passwordchech" placeholder="Repite la contraseña" required>
+                <br>
+                <input type="submit" value="Enviar">
+                <br>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>© 2025 Riot Games, Inc. Todos los derechos reservados. VALORANT y Riot Games son marcas comerciales o marcas registradas de Riot Games, Inc.</p>
+    </footer>
+</body>
+</html>

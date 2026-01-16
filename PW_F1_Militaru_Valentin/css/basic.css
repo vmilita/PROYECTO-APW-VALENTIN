@@ -1,0 +1,61 @@
+html {
+    font-family: "DINNextW1G", sans-serif;
+}   
+
+nav {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter_24pt-Black.ttf);
+}
+
+.main-header {
+    display: flex;
+    align-items: center; 
+    padding: 10px 20px;
+    background-color: black; 
+    position: relative; 
+}
+
+.riot_logo {
+    width: 150px;   
+    height: auto;
+}
+
+.texto_N {
+    display: flex;          
+    justify-content: left; 
+}
+
+.texto_N a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px; 
+    font-size: 19px;
+}
+
+nav a:hover {
+    color: rgb(255, 70, 85);
+}
+
+/*******************************
+********FOOTER******************
+*******************************/
+
+footer {
+    font-family: "Inter", Arial,sans-serif;
+    color: whitesmoke;
+    background-color: #292929;
+    text-align: center;
+}
+
+footer p {
+    margin: 0px;
+    padding: 25px;
+}

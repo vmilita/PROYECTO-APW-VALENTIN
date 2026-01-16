@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(15, 25, 35);
+}
+
+@font-face {
+    font-family: 'Tungsten-Bold';   
+    src: url(../fonts/Tungsten\ Bold.ttf);
+}
+
+.Agentes {
+    font-family: 'Tungsten-Bold';
+    font-size: 110px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    background-image: url(https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/122e6caea8b2a2dbb6d6e71eea4e24effab342da-5120x574.png?accountingTag=VAL?auto=format&fit=fill&q=80&w=1856);
+    background-size: cover;      
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+
+}
+
+.flex_d {
+    display: flex;
+    flex-wrap: wrap;       
+    justify-content: center;
+    gap: 20px;             
+    max-width: 1400px;     
+    margin: 5px auto;        
+}
+
+.item {
+    width: 300px;
+    text-align: center;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(26, 36, 46);
+    overflow: hidden;
+
+}
+
+.item img {
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+
+}
+
+.item img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.item p {
+    margin: -2px;
+    width: 100%;
+    font-family: 'Tungsten-Bold';
+    font-size: 40px;
+    color: rgb(15, 25, 35);
+    background-color: rgb(236, 232, 225);
+    z-index: 2;
+}

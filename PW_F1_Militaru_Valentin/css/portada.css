@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'Tungsten-Bold';   
+    src: url(../fonts/Tungsten\ Bold.ttf);
+}
+
+/***********************
+***PRIMER SECTION*******
+***********************/
+
+.Texto_P {
+    font-size: 20px;
+    height: 500px;
+    background-image: url('../imagenes/headerbg.jpg');
+    background-size: cover;      
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;          
+    padding: 100px 20px;   
+    text-align: center;  
+    display: flex;             
+    flex-direction: column;    
+    justify-content: center;  
+    align-items: center; 
+    font-weight: bold; 
+}
+
+.Texto_P h1 {
+    font-size: 50px;
+}
+
+/***********************
+***SEGUNDO SECTION******
+****SOMOS VALORANT******
+***********************/
+
+.Somos_V {
+    position: relative;
+    display: flex;
+    height: 600px;
+    background-color: #fff2de;
+    padding-left: 50px;
+}
+
+.s_v_texto {
+    align-content: center;
+    flex: 0 1 50%;
+}
+
+.Somos_V h1 {
+    font-family: 'Tungsten-Bold';
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-size: 75px;
+    color: black;
+}
+
+.Somos_V p {
+    text-align: left;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 50px;
+}
+.Somos_V h2 {
+    text-align: left;
+    font-size: 25px;
+    color: black;
+}
+
+.Somos_V video {
+    scale: 120%;
+    height: 300px;
+    position: absolute;
+    right: 100px;
+    top: 125px;
+}
+
+/************************
+*******BOTÓN*************
+************************/
+
+.boton {
+    color: #ECE8E1;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 25px 30px;
+    background-color: #FF4655;
+}
+
+.boton:hover {
+    background-color: #0F1923;
+    color: #ECE8E1;
+}
+
+.boton2 {
+    color: #ECE8E1;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 25px 30px;
+    background-color: #0F1923;
+}
+
+.boton2:hover {
+    background-color: #ECE8E1;
+    color: #0F1923  ;
+}
+
+
+/************************
+*****TERCERA SECTION*****
+*****NEW AGENTO VETO*****
+************************/
+
+.N_A {
+    position: relative;
+    height: 600px;
+    background-image: url(..//imagenes/G3PZl3HWMAEq21W.jpg);
+    background-size: cover;      
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+.N_A h1 {
+    font-family: 'Tungsten-Bold';
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    padding-top: 15px;
+    font-size: 100px;
+    color: black;
+}
+
+.N_A p {
+    text-align: left;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+
+/***************************
+*****CUARTA SECCIÓN*********
+*****VUESTROS AGENTES*******
+***************************/
+
+.V_A {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    height: 600px;
+    background-image: url(https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/b9f3efa9355803cc44e4c59d3f4437cab192bec3-5120x1616.png?accountingTag=valorant_website?auto=format&fit=fill&q=80&h=948);
+    background-size: cover;      
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+.D_V_A {
+    position: relative;
+    width: 1000px; 
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.V_A img {
+    height: 90%;
+    object-fit: cover;
+}
+
+.V_A h1 {
+    font-family: 'Tungsten-Bold';
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.V_A h2 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+
+.V_A p {
+    text-align: left;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+
+/******************************
+******QUINTA SECCIÓN***********
+*****VUESTROS MAPAS************
+******************************/
+
+.V_M {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 600px;
+    background-image: url(https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/3828b05489971b4715f673bc0e2db81f6c7afac7-5120x1616.png?accountingTag=valorant_website?auto=format&fit=fill&q=80&h=1616);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+.V_M h1 {
+    font-family: 'Tungsten-Bold';
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+}
+
+.V_M h2 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+
+.V_M p {
+    text-align: left;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+}
+
+.D_V_M {
+    position: relative;
+    width: 100 q0px; 
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.V_M img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+

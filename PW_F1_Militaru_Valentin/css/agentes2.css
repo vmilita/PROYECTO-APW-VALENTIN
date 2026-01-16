@@ -1,0 +1,64 @@
+body {
+    background-color: #0f1923;
+    color: white;
+}
+
+@font-face {
+    font-family: 'Tungsten-Bold';   
+    src: url(../fonts/Tungsten\ Bold.ttf);
+}
+
+.top {
+    position: relative;
+}
+
+.imagen_agente {
+    height: 750px;
+}
+
+.imagen_agente img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.texto_agente {
+    position: absolute;
+    top: 180px;
+    left: 48px;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto_agente h2 {
+    font-family: 'Tungsten-Bold';
+    font-size: 100px;
+    margin: 0px;
+}
+
+.texto_agente p {
+    font-size: 20px;
+}
+
+.texto_agente img {
+    margin-top: 40px;
+}
+
+.text {
+    height: 112px;
+    width: 600px;
+}
+
+/***********TABLA HABILIDADES**********/
+
+.div_tabla {
+    display: grid;
+    place-items: center; 
+    text-align: center  ;
+}
+
+.div_tabla h1 {
+    font-family: 'Tungsten-Bold';
+    font-size: 75px;
+}
